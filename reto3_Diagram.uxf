@@ -1,0 +1,52 @@
+<diagram program="umletino" version="14.4.0-SNAPSHOT"><zoom_level>10</zoom_level><help_text>Space for diagram notes</help_text><element><id>UMLClass</id><coordinates><x>870</x><y>300</y><w>210</w><h>160</h></coordinates><panel_attributes>Base de datos
+--
+POSTGRES
+--
+SQL
+--
+Responsibilities
+Almacenar datos.</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>60</x><y>40</y><w>210</w><h>80</h></coordinates><panel_attributes>Paquetes
+--
+Direcciones actualizadas
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>590</x><y>270</y><w>210</w><h>190</h></coordinates><panel_attributes>Servidor Web
+--
+AWS
+--
+AWS services
+--
+Responsibilities
+-Actualizar todos los datos recividos.
+-Planificar
+-Analizar</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>790</x><y>370</y><w>100</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;80;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>340</x><y>30</y><w>210</w><h>190</h></coordinates><panel_attributes>Android app
+--
+Android
+--
+Kotlin
+--
+Responsibilities
+-Informar el estado del paquete
+-Mostrar en que proceso logistico esta</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>340</x><y>270</y><w>210</w><h>190</h></coordinates><panel_attributes>Aplicativo web
+--
+Flask
+--
+Python
+--
+Responsibilities
+-Generar un login y un log out.
+-Mostrar estado de trabajador:
+ *Activo
+ *Descanso</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>340</x><y>530</y><w>210</w><h>190</h></coordinates><panel_attributes>GPS
+--
+Gps
+--
+Coordenadas
+--
+Responsibilities
+-Mostrar ubicacion en tiempo real
+-Actualizar coordenadas cada 10mnts</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>540</x><y>450</y><w>180</w><h>200</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;180;160;180;160;10</additional_attributes></element><element><id>Relation</id><coordinates><x>540</x><y>350</y><w>70</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;50;10</additional_attributes></element><element><id>Relation</id><coordinates><x>540</x><y>140</y><w>160</w><h>150</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;140;10;140;130</additional_attributes></element><element><id>Relation</id><coordinates><x>260</x><y>110</y><w>100</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;80;10</additional_attributes></element><element><id>Relation</id><coordinates><x>260</x><y>350</y><w>100</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;80;10</additional_attributes></element><element><id>Relation</id><coordinates><x>260</x><y>610</y><w>100</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes><additional_attributes>10;10;80;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>60</x><y>310</y><w>210</w><h>80</h></coordinates><panel_attributes>Paquetes
+--
+Login and logout
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>60</x><y>580</y><w>210</w><h>80</h></coordinates><panel_attributes>Paquetes
+--
+Login and logout
+</panel_attributes><additional_attributes></additional_attributes></element></diagram>
